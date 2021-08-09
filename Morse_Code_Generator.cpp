@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 #include<string.h>
-#include <windows.h>
+#include<windows.h>
 #include<fstream>
 using namespace std;
 class morsecode
