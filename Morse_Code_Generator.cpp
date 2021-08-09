@@ -13,13 +13,13 @@ public:
 	void getstring()
 	{
 		cout << "Enter the string to parse: ";
-    	gets(string);
+    		gets(string);
 	}
 	void aplhanum()
 	{
 		l=strlen(string);
-    	ofstream out("output.txt");
-    	ifstream in;
+    		ofstream out("output.txt");
+    		ifstream in;
     	for(int i=0; i<l; i++)
     	{
         	switch(string[i])
@@ -242,7 +242,7 @@ public:
 	{
 		ofstream out;
 		out.close();
-        ifstream in;
+        	ifstream in;
 		in.open("output.txt");
         while(!in.eof())
         {
